@@ -1,0 +1,30 @@
+// folder structure
+.
+├── cart.css
+├── cart.js
+├── config
+│   └── database.js
+├── controller
+│   ├── Authentication.js
+│   ├── cart.js
+│   ├── category.js
+│   ├── mailSenderController.js
+│   └── product.js
+├── index.html
+├── index.js
+├── login.css
+├── login.html
+├── model
+│   ├── buyer.js
+│   ├── cart.js
+│   └── product.js
+├── package.json
+├── package-lock.json
+├── routes
+│   └── EcommerceRoute.js
+├── style.css
+├── tree.txt
+└── utils
+    └── mailsender.js
+
+401 directories, 2113 files
