@@ -1,11 +1,12 @@
 const buyer = require("../model/buyer");
 const bcrypt = require("bcrypt");
-const seller = require("../model/seller");
+//const seller = require("../model/seller");
 const sendMail =require("./mailSenderController"); 
+
 exports.signupBuyer= async(req,res)=>{
     try{
     const {Name,password,confirmPassword,email,phoneNo,image}= req.body;
-
+    console.log(Name,password,confirmPassword,email,phoneNo,image);
     if(!Name||!password||!confirmPassword||!email||!phoneNo){
         return res.status(500).json({
             success:false,
@@ -68,6 +69,7 @@ exports.loginBuyer = async (req,res)=>{
     try{
         const email= req.body.email;
         const password=req.body.password;
+       console.log(email,password); 
         if(!email||!password){
     return res.status(400).json({
         success:false,
