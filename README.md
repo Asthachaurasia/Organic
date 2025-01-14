@@ -1,8 +1,7 @@
 
 # Organic
 
-An interactive and dynamic e-commerce platform that allows users to explore products, add them to their cart, and manage their cart with features like adding and deleting items. The application also supports user authentication (sign-up and login) with email notifications.
-
+Organic is an e-commerce platform dedicated to providing fresh and high-quality organic fruits and vegetables. Our goal is to promote healthy living by connecting consumers with sustainably sourced, chemical-free produce. Customers can explore a variety of organic products, add them to their cart, through our user-friendly interface.
  
 
 # Features
